@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'PT Serif', serif;
+}
+
+.ant-btn {
+  background: linear-gradient(to right, #3a3a3a, #000) !important;
+  color: white !important;
+  border: none !important;
+}
+.ant-btn:hover {
+  background: linear-gradient(to right, #5a5a5a, #000) !important;
+  color: white !important;
+  border: none !important;
+}
+
+.first-input {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: #b9b9b9;
+  width: auto;
+  min-width: 100px;
+  display: inline-block;
+  cursor: default;
+  pointer-events: none;
+  text-align: center;
+}
+
+@media (min-width: 2560px) {
+  body {
+    font-size: 1.5rem;
+  }
+
+  .button {
+    padding: 1.5rem 3rem;
+    font-size: 1.25rem;
+  }
+
+  .w-28 {
+    width: 7rem;
+  }
+
+  .w-12 {
+    width: 3rem;
+  }
+}
